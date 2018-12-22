@@ -1,0 +1,52 @@
+body {
+    background: #333;
+}
+
+.qr {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.qr img {
+    width: 100%;
+}
+
+.codeurl {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+
+.active-invited {
+    background: #ddd;
+    line-height: 40px;
+    margin-top: 50px;
+    width: 90%;
+    border: 0;
+    border-radius: 4px;
+    display: block;
+    margin: 50px auto 0;
+    padding-left: 10px;
+    outline: none;
+}
+
+.product-btn {
+    background: #57BB79;
+    margin: 30px auto;
+    width: 90%;
+    height: 50px;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.rule {
+    color: #ddd;
+    line-height: 20px;
+    width: 90%;
+    margin: 0 auto 60px;
+}
